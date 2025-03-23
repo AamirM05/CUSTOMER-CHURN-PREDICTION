@@ -88,6 +88,10 @@ The What-If Analysis dashboard allows interactive exploration of churn factors:
 - **Key Risk Factors**: Highlights the main contributors to churn risk
 
 **Data Engineering Aspect**: Showcases real-time data processing and model inference, demonstrating how data pipelines can support interactive applications.
+![Project Banner](https://raw.githubusercontent.com/AamirM05/CUSTOMER-CHURN-PREDICTION/refs/heads/main/Rimages/Screenshot%202025-03-24%20002203.png)
+![Project Banner](https://raw.githubusercontent.com/AamirM05/CUSTOMER-CHURN-PREDICTION/refs/heads/main/Rimages/FireShot%20Capture%20001%20-%20Telco%20Customer%20Churn%20Analysis%20-%20%5Blocalhost%5D.png)
+![Project Banner](https://raw.githubusercontent.com/AamirM05/CUSTOMER-CHURN-PREDICTION/refs/heads/main/Rimages/2.png)
+![Project Banner](https://raw.githubusercontent.com/AamirM05/CUSTOMER-CHURN-PREDICTION/refs/heads/main/Rimages/03.png)
 
 ## 🚀 Installation and Setup
 
