@@ -1,0 +1,246 @@
+2025-03-23 19:48:18,664 - __main__ - INFO - Starting dashboard on port 8501...
+2025-03-23 19:56:01,692 - __main__ - INFO - Running full pipeline...
+2025-03-23 19:56:01,692 - __main__ - INFO - Checking requirements...
+2025-03-23 19:56:01,919 - __main__ - INFO - Requirements check completed.
+2025-03-23 19:56:01,919 - __main__ - INFO - Ingesting data...
+2025-03-23 19:56:09,083 - src.utils.config_loader - INFO - Configuration loaded from config/config.yaml
+2025-03-23 19:56:09,083 - src.data.ingestion - INFO - Reading data from data/raw/Telco Customer Churn Dataset.csv
+2025-03-23 19:56:09,083 - src.data.ingestion - INFO - Successfully read 966 rows from data/raw/Telco Customer Churn Dataset.csv
+2025-03-23 19:56:09,101 - src.data.ingestion - INFO - Data preprocessing completed
+2025-03-23 19:56:09,101 - src.data.ingestion - INFO - Creating database engine for sqlite
+2025-03-23 19:56:09,114 - src.data.ingestion - INFO - Loading 966 rows to table 'telco_churn'
+2025-03-23 19:56:09,140 - src.data.ingestion - INFO - Successfully loaded data to table 'telco_churn'
+2025-03-23 19:56:09,140 - __main__ - INFO - Data ingestion completed. Loaded 966 rows to database.
+2025-03-23 19:56:09,140 - __main__ - INFO - Engineering features...
+2025-03-23 19:56:09,145 - src.utils.config_loader - INFO - Configuration loaded from config/config.yaml
+2025-03-23 19:56:09,145 - src.data.ingestion - INFO - Reading data from data/raw/Telco Customer Churn Dataset.csv
+2025-03-23 19:56:09,148 - src.data.ingestion - INFO - Successfully read 966 rows from data/raw/Telco Customer Churn Dataset.csv
+2025-03-23 19:56:09,153 - src.data.ingestion - INFO - Data preprocessing completed
+2025-03-23 19:56:09,154 - src.data.ingestion - INFO - Creating database engine for sqlite
+2025-03-23 19:56:09,154 - src.data.ingestion - INFO - Loading 966 rows to table 'telco_churn'
+2025-03-23 19:56:09,181 - src.data.ingestion - INFO - Successfully loaded data to table 'telco_churn'
+2025-03-23 19:56:09,182 - src.utils.config_loader - INFO - Configuration loaded from config/config.yaml
+2025-03-23 19:56:09,186 - src.data.feature_engineering - INFO - Created time-based features from tenure column
+2025-03-23 19:56:09,191 - src.data.feature_engineering - INFO - Created interaction features
+2025-03-23 19:59:15,538 - __main__ - INFO - Running full pipeline...
+2025-03-23 19:59:15,538 - __main__ - INFO - Checking requirements...
+2025-03-23 19:59:15,777 - __main__ - INFO - Requirements check completed.
+2025-03-23 19:59:15,777 - __main__ - INFO - Ingesting data...
+2025-03-23 19:59:16,808 - src.utils.config_loader - INFO - Configuration loaded from config/config.yaml
+2025-03-23 19:59:16,808 - src.data.ingestion - INFO - Reading data from data/raw/Telco Customer Churn Dataset.csv
+2025-03-23 19:59:16,813 - src.data.ingestion - INFO - Successfully read 966 rows from data/raw/Telco Customer Churn Dataset.csv
+2025-03-23 19:59:16,818 - src.data.ingestion - INFO - Data preprocessing completed
+2025-03-23 19:59:16,820 - src.data.ingestion - INFO - Creating database engine for sqlite
+2025-03-23 19:59:16,829 - src.data.ingestion - INFO - Loading 966 rows to table 'telco_churn'
+2025-03-23 19:59:16,860 - src.data.ingestion - INFO - Successfully loaded data to table 'telco_churn'
+2025-03-23 19:59:16,860 - __main__ - INFO - Data ingestion completed. Loaded 966 rows to database.
+2025-03-23 19:59:16,860 - __main__ - INFO - Engineering features...
+2025-03-23 19:59:16,864 - src.utils.config_loader - INFO - Configuration loaded from config/config.yaml
+2025-03-23 19:59:16,866 - src.data.ingestion - INFO - Reading data from data/raw/Telco Customer Churn Dataset.csv
+2025-03-23 19:59:16,870 - src.data.ingestion - INFO - Successfully read 966 rows from data/raw/Telco Customer Churn Dataset.csv
+2025-03-23 19:59:16,875 - src.data.ingestion - INFO - Data preprocessing completed
+2025-03-23 19:59:16,875 - src.data.ingestion - INFO - Creating database engine for sqlite
+2025-03-23 19:59:16,876 - src.data.ingestion - INFO - Loading 966 rows to table 'telco_churn'
+2025-03-23 19:59:16,903 - src.data.ingestion - INFO - Successfully loaded data to table 'telco_churn'
+2025-03-23 19:59:16,907 - src.utils.config_loader - INFO - Configuration loaded from config/config.yaml
+2025-03-23 19:59:16,909 - src.data.feature_engineering - INFO - Created time-based features from tenure column
+2025-03-23 19:59:16,918 - src.data.feature_engineering - INFO - Created interaction features
+2025-03-23 19:59:16,921 - src.data.feature_engineering - INFO - Identified 2 categorical features, 3 numerical features, and 14 binary features
+2025-03-23 19:59:37,132 - __main__ - INFO - Running full pipeline...
+2025-03-23 19:59:37,132 - __main__ - INFO - Checking requirements...
+2025-03-23 19:59:37,378 - __main__ - INFO - Requirements check completed.
+2025-03-23 19:59:37,378 - __main__ - INFO - Ingesting data...
+2025-03-23 19:59:38,373 - src.utils.config_loader - INFO - Configuration loaded from config/config.yaml
+2025-03-23 19:59:38,373 - src.data.ingestion - INFO - Reading data from data/raw/Telco Customer Churn Dataset.csv
+2025-03-23 19:59:38,376 - src.data.ingestion - INFO - Successfully read 966 rows from data/raw/Telco Customer Churn Dataset.csv
+2025-03-23 19:59:38,385 - src.data.ingestion - INFO - Data preprocessing completed
+2025-03-23 19:59:38,386 - src.data.ingestion - INFO - Creating database engine for sqlite
+2025-03-23 19:59:38,394 - src.data.ingestion - INFO - Loading 966 rows to table 'telco_churn'
+2025-03-23 19:59:38,421 - src.data.ingestion - INFO - Successfully loaded data to table 'telco_churn'
+2025-03-23 19:59:38,421 - __main__ - INFO - Data ingestion completed. Loaded 966 rows to database.
+2025-03-23 19:59:38,421 - __main__ - INFO - Engineering features...
+2025-03-23 19:59:38,426 - src.utils.config_loader - INFO - Configuration loaded from config/config.yaml
+2025-03-23 19:59:38,426 - src.data.ingestion - INFO - Reading data from data/raw/Telco Customer Churn Dataset.csv
+2025-03-23 19:59:38,433 - src.data.ingestion - INFO - Successfully read 966 rows from data/raw/Telco Customer Churn Dataset.csv
+2025-03-23 19:59:38,438 - src.data.ingestion - INFO - Data preprocessing completed
+2025-03-23 19:59:38,438 - src.data.ingestion - INFO - Creating database engine for sqlite
+2025-03-23 19:59:38,439 - src.data.ingestion - INFO - Loading 966 rows to table 'telco_churn'
+2025-03-23 19:59:38,466 - src.data.ingestion - INFO - Successfully loaded data to table 'telco_churn'
+2025-03-23 19:59:38,472 - src.utils.config_loader - INFO - Configuration loaded from config/config.yaml
+2025-03-23 19:59:38,474 - src.data.feature_engineering - INFO - Created time-based features from tenure column
+2025-03-23 19:59:38,485 - src.data.feature_engineering - INFO - Created interaction features
+2025-03-23 19:59:38,486 - src.data.feature_engineering - INFO - Identified 2 categorical features, 3 numerical features, and 14 binary features
+2025-03-23 19:59:38,486 - src.data.feature_engineering - INFO - Created preprocessing pipeline
+2025-03-23 19:59:38,499 - src.data.feature_engineering - INFO - Engineered 26 features from 28 original columns
+2025-03-23 19:59:38,509 - src.data.feature_engineering - INFO - Saved engineered features to data/feature_store/engineered_features.csv
+2025-03-23 19:59:38,509 - __main__ - INFO - Feature engineering completed. Created 26 features from 21 original columns.
+2025-03-23 19:59:38,510 - __main__ - INFO - Training model...
+2025-03-23 19:59:45,626 - src.utils.config_loader - INFO - Configuration loaded from config/config.yaml
+2025-03-23 19:59:45,642 - src.models.train - INFO - Loaded 966 rows from data/feature_store/engineered_features.csv
+2025-03-23 20:00:38,480 - __main__ - INFO - Running full pipeline...
+2025-03-23 20:00:38,480 - __main__ - INFO - Checking requirements...
+2025-03-23 20:00:38,732 - __main__ - INFO - Requirements check completed.
+2025-03-23 20:00:38,732 - __main__ - INFO - Ingesting data...
+2025-03-23 20:00:39,725 - src.utils.config_loader - INFO - Configuration loaded from config/config.yaml
+2025-03-23 20:00:39,725 - src.data.ingestion - INFO - Reading data from data/raw/Telco Customer Churn Dataset.csv
+2025-03-23 20:00:39,731 - src.data.ingestion - INFO - Successfully read 966 rows from data/raw/Telco Customer Churn Dataset.csv
+2025-03-23 20:00:39,737 - src.data.ingestion - INFO - Data preprocessing completed
+2025-03-23 20:00:39,737 - src.data.ingestion - INFO - Creating database engine for sqlite
+2025-03-23 20:00:39,747 - src.data.ingestion - INFO - Loading 966 rows to table 'telco_churn'
+2025-03-23 20:00:39,780 - src.data.ingestion - INFO - Successfully loaded data to table 'telco_churn'
+2025-03-23 20:00:39,780 - __main__ - INFO - Data ingestion completed. Loaded 966 rows to database.
+2025-03-23 20:00:39,780 - __main__ - INFO - Engineering features...
+2025-03-23 20:00:39,781 - src.utils.config_loader - INFO - Configuration loaded from config/config.yaml
+2025-03-23 20:00:39,781 - src.data.ingestion - INFO - Reading data from data/raw/Telco Customer Churn Dataset.csv
+2025-03-23 20:00:39,789 - src.data.ingestion - INFO - Successfully read 966 rows from data/raw/Telco Customer Churn Dataset.csv
+2025-03-23 20:00:39,794 - src.data.ingestion - INFO - Data preprocessing completed
+2025-03-23 20:00:39,794 - src.data.ingestion - INFO - Creating database engine for sqlite
+2025-03-23 20:00:39,795 - src.data.ingestion - INFO - Loading 966 rows to table 'telco_churn'
+2025-03-23 20:00:39,823 - src.data.ingestion - INFO - Successfully loaded data to table 'telco_churn'
+2025-03-23 20:00:39,827 - src.utils.config_loader - INFO - Configuration loaded from config/config.yaml
+2025-03-23 20:00:39,827 - src.data.feature_engineering - INFO - Created time-based features from tenure column
+2025-03-23 20:00:39,837 - src.data.feature_engineering - INFO - Created interaction features
+2025-03-23 20:00:39,842 - src.data.feature_engineering - INFO - Identified 2 categorical features, 3 numerical features, and 14 binary features
+2025-03-23 20:00:39,842 - src.data.feature_engineering - INFO - Created preprocessing pipeline
+2025-03-23 20:00:39,856 - src.data.feature_engineering - INFO - Engineered 26 features from 28 original columns
+2025-03-23 20:00:39,866 - src.data.feature_engineering - INFO - Saved engineered features to data/feature_store/engineered_features.csv
+2025-03-23 20:00:39,866 - __main__ - INFO - Feature engineering completed. Created 26 features from 21 original columns.
+2025-03-23 20:00:39,866 - __main__ - INFO - Training model...
+2025-03-23 20:00:42,176 - src.utils.config_loader - INFO - Configuration loaded from config/config.yaml
+2025-03-23 20:00:42,192 - src.models.train - INFO - Loaded 966 rows from data/feature_store/engineered_features.csv
+2025-03-23 20:00:42,193 - src.models.train - INFO - Split data into 772 training samples and 194 test samples
+2025-03-23 20:00:42,193 - src.models.train - INFO - Created xgboost model instance
+2025-03-23 20:00:42,193 - src.models.train - INFO - Training XGBClassifier model on 772 samples
+2025-03-23 20:00:42,407 - src.models.train - INFO - Model training completed in 0.21 seconds
+2025-03-23 20:00:42,407 - src.models.train - INFO - Evaluating XGBClassifier model
+2025-03-23 20:00:42,642 - src.models.train - INFO - Train metrics:
+2025-03-23 20:00:42,642 - src.models.train - INFO -   accuracy: 0.9352
+2025-03-23 20:00:42,642 - src.models.train - INFO -   precision: 0.9096
+2025-03-23 20:00:42,642 - src.models.train - INFO -   recall: 0.8256
+2025-03-23 20:00:42,642 - src.models.train - INFO -   f1: 0.8656
+2025-03-23 20:00:42,642 - src.models.train - INFO -   roc_auc: 0.9857
+2025-03-23 20:00:42,642 - src.models.train - INFO - Test metrics:
+2025-03-23 20:00:42,642 - src.models.train - INFO -   accuracy: 0.7887
+2025-03-23 20:00:42,642 - src.models.train - INFO -   precision: 0.6111
+2025-03-23 20:00:42,642 - src.models.train - INFO -   recall: 0.4490
+2025-03-23 20:00:42,642 - src.models.train - INFO -   f1: 0.5176
+2025-03-23 20:00:42,642 - src.models.train - INFO -   roc_auc: 0.8371
+2025-03-23 20:00:42,642 - src.models.train - INFO - Cross-validation mean score: 0.8164 ± 0.0266
+2025-03-23 20:00:42,674 - src.models.train - INFO - Model saved to data/model_data/model_20250323_200042.pkl
+2025-03-23 20:00:42,674 - src.models.train - INFO - Metrics saved to data/model_data/metrics_20250323_200042.json
+2025-03-23 20:01:20,463 - __main__ - INFO - Running full pipeline...
+2025-03-23 20:01:20,463 - __main__ - INFO - Checking requirements...
+2025-03-23 20:01:20,731 - __main__ - INFO - Requirements check completed.
+2025-03-23 20:01:20,731 - __main__ - INFO - Ingesting data...
+2025-03-23 20:01:21,742 - src.utils.config_loader - INFO - Configuration loaded from config/config.yaml
+2025-03-23 20:01:21,742 - src.data.ingestion - INFO - Reading data from data/raw/Telco Customer Churn Dataset.csv
+2025-03-23 20:01:21,748 - src.data.ingestion - INFO - Successfully read 966 rows from data/raw/Telco Customer Churn Dataset.csv
+2025-03-23 20:01:21,754 - src.data.ingestion - INFO - Data preprocessing completed
+2025-03-23 20:01:21,755 - src.data.ingestion - INFO - Creating database engine for sqlite
+2025-03-23 20:01:21,764 - src.data.ingestion - INFO - Loading 966 rows to table 'telco_churn'
+2025-03-23 20:01:21,792 - src.data.ingestion - INFO - Successfully loaded data to table 'telco_churn'
+2025-03-23 20:01:21,792 - __main__ - INFO - Data ingestion completed. Loaded 966 rows to database.
+2025-03-23 20:01:21,792 - __main__ - INFO - Engineering features...
+2025-03-23 20:01:21,798 - src.utils.config_loader - INFO - Configuration loaded from config/config.yaml
+2025-03-23 20:01:21,798 - src.data.ingestion - INFO - Reading data from data/raw/Telco Customer Churn Dataset.csv
+2025-03-23 20:01:21,804 - src.data.ingestion - INFO - Successfully read 966 rows from data/raw/Telco Customer Churn Dataset.csv
+2025-03-23 20:01:21,810 - src.data.ingestion - INFO - Data preprocessing completed
+2025-03-23 20:01:21,810 - src.data.ingestion - INFO - Creating database engine for sqlite
+2025-03-23 20:01:21,811 - src.data.ingestion - INFO - Loading 966 rows to table 'telco_churn'
+2025-03-23 20:01:21,838 - src.data.ingestion - INFO - Successfully loaded data to table 'telco_churn'
+2025-03-23 20:01:21,843 - src.utils.config_loader - INFO - Configuration loaded from config/config.yaml
+2025-03-23 20:01:21,844 - src.data.feature_engineering - INFO - Created time-based features from tenure column
+2025-03-23 20:01:21,855 - src.data.feature_engineering - INFO - Created interaction features
+2025-03-23 20:01:21,856 - src.data.feature_engineering - INFO - Identified 2 categorical features, 3 numerical features, and 14 binary features
+2025-03-23 20:01:21,856 - src.data.feature_engineering - INFO - Created preprocessing pipeline
+2025-03-23 20:01:21,870 - src.data.feature_engineering - INFO - Engineered 26 features from 28 original columns
+2025-03-23 20:01:21,879 - src.data.feature_engineering - INFO - Saved engineered features to data/feature_store/engineered_features.csv
+2025-03-23 20:01:21,879 - __main__ - INFO - Feature engineering completed. Created 26 features from 21 original columns.
+2025-03-23 20:01:21,879 - __main__ - INFO - Training model...
+2025-03-23 20:01:24,213 - src.utils.config_loader - INFO - Configuration loaded from config/config.yaml
+2025-03-23 20:01:24,231 - src.models.train - INFO - Loaded 966 rows from data/feature_store/engineered_features.csv
+2025-03-23 20:01:24,231 - src.models.train - INFO - Split data into 772 training samples and 194 test samples
+2025-03-23 20:01:24,231 - src.models.train - INFO - Created xgboost model instance
+2025-03-23 20:01:24,231 - src.models.train - INFO - Training XGBClassifier model on 772 samples
+2025-03-23 20:01:24,410 - src.models.train - INFO - Model training completed in 0.18 seconds
+2025-03-23 20:01:24,410 - src.models.train - INFO - Evaluating XGBClassifier model
+2025-03-23 20:01:24,656 - src.models.train - INFO - Train metrics:
+2025-03-23 20:01:24,656 - src.models.train - INFO -   accuracy: 0.9352
+2025-03-23 20:01:24,657 - src.models.train - INFO -   precision: 0.9096
+2025-03-23 20:01:24,657 - src.models.train - INFO -   recall: 0.8256
+2025-03-23 20:01:24,657 - src.models.train - INFO -   f1: 0.8656
+2025-03-23 20:01:24,657 - src.models.train - INFO -   roc_auc: 0.9857
+2025-03-23 20:01:24,658 - src.models.train - INFO - Test metrics:
+2025-03-23 20:01:24,658 - src.models.train - INFO -   accuracy: 0.7887
+2025-03-23 20:01:24,658 - src.models.train - INFO -   precision: 0.6111
+2025-03-23 20:01:24,658 - src.models.train - INFO -   recall: 0.4490
+2025-03-23 20:01:24,658 - src.models.train - INFO -   f1: 0.5176
+2025-03-23 20:01:24,658 - src.models.train - INFO -   roc_auc: 0.8371
+2025-03-23 20:01:24,658 - src.models.train - INFO - Cross-validation mean score: 0.8164 ± 0.0266
+2025-03-23 20:01:24,688 - src.models.train - INFO - Model saved to data/model_data/model_20250323_200124.pkl
+2025-03-23 20:01:24,688 - src.models.train - INFO - Metrics saved to data/model_data/metrics_20250323_200124.json
+2025-03-23 20:01:25,023 - alembic.runtime.migration - INFO - Context impl SQLiteImpl.
+2025-03-23 20:01:25,023 - alembic.runtime.migration - INFO - Will assume non-transactional DDL.
+2025-03-23 20:01:53,888 - __main__ - INFO - Running full pipeline...
+2025-03-23 20:01:53,888 - __main__ - INFO - Checking requirements...
+2025-03-23 20:01:54,129 - __main__ - INFO - Requirements check completed.
+2025-03-23 20:01:54,129 - __main__ - INFO - Ingesting data...
+2025-03-23 20:01:55,140 - src.utils.config_loader - INFO - Configuration loaded from config/config.yaml
+2025-03-23 20:01:55,151 - src.data.ingestion - INFO - Reading data from data/raw/Telco Customer Churn Dataset.csv
+2025-03-23 20:01:55,156 - src.data.ingestion - INFO - Successfully read 966 rows from data/raw/Telco Customer Churn Dataset.csv
+2025-03-23 20:01:55,161 - src.data.ingestion - INFO - Data preprocessing completed
+2025-03-23 20:01:55,162 - src.data.ingestion - INFO - Creating database engine for sqlite
+2025-03-23 20:01:55,170 - src.data.ingestion - INFO - Loading 966 rows to table 'telco_churn'
+2025-03-23 20:01:55,200 - src.data.ingestion - INFO - Successfully loaded data to table 'telco_churn'
+2025-03-23 20:01:55,200 - __main__ - INFO - Data ingestion completed. Loaded 966 rows to database.
+2025-03-23 20:01:55,200 - __main__ - INFO - Engineering features...
+2025-03-23 20:01:55,201 - src.utils.config_loader - INFO - Configuration loaded from config/config.yaml
+2025-03-23 20:01:55,201 - src.data.ingestion - INFO - Reading data from data/raw/Telco Customer Churn Dataset.csv
+2025-03-23 20:01:55,209 - src.data.ingestion - INFO - Successfully read 966 rows from data/raw/Telco Customer Churn Dataset.csv
+2025-03-23 20:01:55,215 - src.data.ingestion - INFO - Data preprocessing completed
+2025-03-23 20:01:55,215 - src.data.ingestion - INFO - Creating database engine for sqlite
+2025-03-23 20:01:55,215 - src.data.ingestion - INFO - Loading 966 rows to table 'telco_churn'
+2025-03-23 20:01:55,242 - src.data.ingestion - INFO - Successfully loaded data to table 'telco_churn'
+2025-03-23 20:01:55,246 - src.utils.config_loader - INFO - Configuration loaded from config/config.yaml
+2025-03-23 20:01:55,249 - src.data.feature_engineering - INFO - Created time-based features from tenure column
+2025-03-23 20:01:55,260 - src.data.feature_engineering - INFO - Created interaction features
+2025-03-23 20:01:55,261 - src.data.feature_engineering - INFO - Identified 2 categorical features, 3 numerical features, and 14 binary features
+2025-03-23 20:01:55,261 - src.data.feature_engineering - INFO - Created preprocessing pipeline
+2025-03-23 20:01:55,275 - src.data.feature_engineering - INFO - Engineered 26 features from 28 original columns
+2025-03-23 20:01:55,282 - src.data.feature_engineering - INFO - Saved engineered features to data/feature_store/engineered_features.csv
+2025-03-23 20:01:55,285 - __main__ - INFO - Feature engineering completed. Created 26 features from 21 original columns.
+2025-03-23 20:01:55,285 - __main__ - INFO - Training model...
+2025-03-23 20:01:57,590 - src.utils.config_loader - INFO - Configuration loaded from config/config.yaml
+2025-03-23 20:01:57,602 - src.models.train - INFO - Loaded 966 rows from data/feature_store/engineered_features.csv
+2025-03-23 20:01:57,602 - src.models.train - INFO - Split data into 772 training samples and 194 test samples
+2025-03-23 20:01:57,602 - src.models.train - INFO - Created xgboost model instance
+2025-03-23 20:01:57,602 - src.models.train - INFO - Training XGBClassifier model on 772 samples
+2025-03-23 20:01:57,775 - src.models.train - INFO - Model training completed in 0.17 seconds
+2025-03-23 20:01:57,775 - src.models.train - INFO - Evaluating XGBClassifier model
+2025-03-23 20:01:58,046 - src.models.train - INFO - Train metrics:
+2025-03-23 20:01:58,046 - src.models.train - INFO -   accuracy: 0.9352
+2025-03-23 20:01:58,046 - src.models.train - INFO -   precision: 0.9096
+2025-03-23 20:01:58,046 - src.models.train - INFO -   recall: 0.8256
+2025-03-23 20:01:58,046 - src.models.train - INFO -   f1: 0.8656
+2025-03-23 20:01:58,046 - src.models.train - INFO -   roc_auc: 0.9857
+2025-03-23 20:01:58,046 - src.models.train - INFO - Test metrics:
+2025-03-23 20:01:58,046 - src.models.train - INFO -   accuracy: 0.7887
+2025-03-23 20:01:58,046 - src.models.train - INFO -   precision: 0.6111
+2025-03-23 20:01:58,046 - src.models.train - INFO -   recall: 0.4490
+2025-03-23 20:01:58,046 - src.models.train - INFO -   f1: 0.5176
+2025-03-23 20:01:58,046 - src.models.train - INFO -   roc_auc: 0.8371
+2025-03-23 20:01:58,046 - src.models.train - INFO - Cross-validation mean score: 0.8164 ± 0.0266
+2025-03-23 20:01:58,076 - src.models.train - INFO - Model saved to data/model_data/model_20250323_200158.pkl
+2025-03-23 20:01:58,076 - src.models.train - INFO - Metrics saved to data/model_data/metrics_20250323_200158.json
+2025-03-23 20:01:58,426 - alembic.runtime.migration - INFO - Context impl SQLiteImpl.
+2025-03-23 20:01:58,426 - alembic.runtime.migration - INFO - Will assume non-transactional DDL.
+2025-03-23 20:02:03,226 - src.models.train - INFO - Model registered as telco_churn_model with version 1
+2025-03-23 20:02:03,226 - src.models.train - INFO - Model registered as telco_churn_model
+2025-03-23 20:02:03,230 - src.models.train - INFO - MLflow run completed with ID: ce31e08b67344c67b340e5c2779f4a63
+2025-03-23 20:02:03,230 - __main__ - INFO - Model training completed. Model saved to data/model_data/model_20250323_200158.pkl.
+2025-03-23 20:02:03,230 - __main__ - INFO - Pipeline completed successfully.
+2025-03-23 20:02:07,096 - __main__ - INFO - Starting dashboard on port 8501...
+2025-03-23 20:12:27,403 - __main__ - INFO - Starting dashboard on port 8501...
+2025-03-23 20:18:29,983 - __main__ - INFO - Starting dashboard on port 8502...
+2025-03-23 20:20:10,696 - __main__ - INFO - Starting dashboard on port 8501...
+2025-03-23 23:57:11,269 - __main__ - INFO - Starting dashboard on port 8501...

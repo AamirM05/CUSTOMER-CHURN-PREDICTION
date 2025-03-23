@@ -1,0 +1,137 @@
+# Telco Customer Churn Data Engineering Project Configuration
+
+# Data paths
+data:
+  raw_data_path: "data/raw/Telco Customer Churn Dataset.csv"
+  processed_data_path: "data/processed/"
+  feature_store_path: "data/feature_store/"
+  model_data_path: "data/model_data/"
+
+# Database configuration
+database:
+  type: "sqlite"  # Options: sqlite, postgres, mysql
+  sqlite:
+    path: "data/telco_churn.db"
+  postgres:
+    host: "localhost"
+    port: 5432
+    database: "telco_churn"
+    user: "postgres"
+    password: ""  # Set via environment variable DB_PASSWORD
+  mysql:
+    host: "localhost"
+    port: 3306
+    database: "telco_churn"
+    user: "root"
+    password: ""  # Set via environment variable DB_PASSWORD
+
+# Data processing
+processing:
+  categorical_features:
+    - "gender"
+    - "SeniorCitizen"
+    - "Partner"
+    - "Dependents"
+    - "PhoneService"
+    - "MultipleLines"
+    - "InternetService"
+    - "OnlineSecurity"
+    - "OnlineBackup"
+    - "DeviceProtection"
+    - "TechSupport"
+    - "StreamingTV"
+    - "StreamingMovies"
+    - "Contract"
+    - "PaperlessBilling"
+    - "PaymentMethod"
+  numerical_features:
+    - "tenure"
+    - "MonthlyCharges"
+    - "TotalCharges"
+  target: "Churn"
+  id_column: "customerID"
+  test_size: 0.2
+  random_state: 42
+  handle_missing: true
+  handle_outliers: true
+  feature_scaling: "standard"  # Options: standard, minmax, robust, none
+
+# Model training
+model:
+  algorithm: "xgboost"  # Options: logistic, random_forest, xgboost, lightgbm
+  hyperparameters:
+    xgboost:
+      n_estimators: 100
+      max_depth: 5
+      learning_rate: 0.1
+      subsample: 0.8
+      colsample_bytree: 0.8
+    random_forest:
+      n_estimators: 100
+      max_depth: 10
+      min_samples_split: 2
+      min_samples_leaf: 1
+    logistic:
+      C: 1.0
+      penalty: "l2"
+      solver: "liblinear"
+    lightgbm:
+      n_estimators: 100
+      num_leaves: 31
+      learning_rate: 0.1
+  cross_validation:
+    method: "stratified_kfold"  # Options: kfold, stratified_kfold, time_series
+    n_splits: 5
+  evaluation_metrics:
+    - "accuracy"
+    - "precision"
+    - "recall"
+    - "f1"
+    - "roc_auc"
+    - "confusion_matrix"
+  feature_importance: true
+  shap_analysis: true
+
+# MLflow tracking
+mlflow:
+  tracking_uri: "sqlite:///data/mlflow.db"
+  experiment_name: "telco_churn_prediction"
+  register_model: true
+  model_name: "telco_churn_model"
+
+# Dashboard
+dashboard:
+  title: "Telco Customer Churn Analysis"
+  port: 8501
+  theme: "light"  # Options: light, dark
+  pages:
+    - "Overview"
+    - "Customer Analysis"
+    - "Churn Prediction"
+    - "What-If Analysis"
+  cache_data: true
+  update_interval: 24  # hours
+
+# Airflow
+airflow:
+  dag_id: "telco_churn_pipeline"
+  schedule_interval: "@daily"
+  start_date: "2023-01-01"
+  catchup: false
+  max_active_runs: 1
+  concurrency: 4
+  default_args:
+    owner: "data_engineer"
+    retries: 1
+    retry_delay_minutes: 5
+    email_on_failure: true
+    email_on_retry: false
+
+# Logging
+logging:
+  level: "INFO"  # Options: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/telco_churn.log"
+  rotate: true
+  max_size_mb: 10
+  backup_count: 5

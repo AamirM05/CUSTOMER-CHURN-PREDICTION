@@ -1,0 +1,48 @@
+2025-03-23 19:48:37,355 - INFO - Parsed 34 requirements from requirements.txt
+2025-03-23 19:48:37,355 - INFO - Found 68 packages already installed
+2025-03-23 19:48:37,355 - INFO - Installing 24 missing packages: pyarrow>=6.0.0, dask>=2022.2.0, pyspark>=3.2.0, sqlalchemy>=1.4.0, psycopg2-binary>=2.9.0, pymongo>=4.0.0, clickhouse-driver>=0.2.0, great-expectations>=0.15.0, dbt-core>=1.0.0, pydantic>=1.9.0, apache-airflow>=2.3.0, prefect>=2.0.0, xgboost>=1.5.0, lightgbm>=3.3.0, mlflow>=1.26.0, shap>=0.40.0, streamlit>=1.10.0, fastapi>=0.75.0, uvicorn>=0.17.0, python-dotenv>=0.20.0, pytest>=7.0.0, black>=22.3.0, isort>=5.10.0, mypy>=0.950
+2025-03-23 19:48:37,355 - INFO - Installing pyarrow>=6.0.0
+2025-03-23 19:48:48,364 - INFO - Installing dask>=2022.2.0
+2025-03-23 19:48:55,013 - INFO - Installing pyspark>=3.2.0
+2025-03-23 19:50:48,707 - INFO - Installing sqlalchemy>=1.4.0
+2025-03-23 19:50:55,104 - INFO - Installing psycopg2-binary>=2.9.0
+2025-03-23 19:50:57,240 - INFO - Installing pymongo>=4.0.0
+2025-03-23 19:51:02,271 - INFO - Installing clickhouse-driver>=0.2.0
+2025-03-23 19:51:04,909 - INFO - Installing great-expectations>=0.15.0
+2025-03-23 19:51:42,646 - INFO - Installing dbt-core>=1.0.0
+2025-03-23 19:52:00,403 - INFO - Installing pydantic>=1.9.0
+2025-03-23 19:52:01,628 - INFO - Installing apache-airflow>=2.3.0
+2025-03-23 19:53:06,543 - INFO - Installing prefect>=2.0.0
+2025-03-23 19:53:40,536 - INFO - Installing xgboost>=1.5.0
+2025-03-23 19:54:09,539 - INFO - Installing lightgbm>=3.3.0
+2025-03-23 19:54:12,889 - INFO - Installing mlflow>=1.26.0
+2025-03-23 19:54:36,067 - INFO - Installing shap>=0.40.0
+2025-03-23 19:54:55,932 - INFO - Installing streamlit>=1.10.0
+2025-03-23 19:55:11,709 - INFO - Installing fastapi>=0.75.0
+2025-03-23 19:55:13,805 - INFO - Installing uvicorn>=0.17.0
+2025-03-23 19:55:15,876 - INFO - Installing python-dotenv>=0.20.0
+2025-03-23 19:55:17,926 - INFO - Installing pytest>=7.0.0
+2025-03-23 19:55:21,787 - INFO - Installing black>=22.3.0
+2025-03-23 19:55:26,226 - INFO - Installing isort>=5.10.0
+2025-03-23 19:55:29,448 - INFO - Installing mypy>=0.950
+2025-03-23 19:55:50,812 - INFO - Parsed 34 requirements from requirements.txt
+2025-03-23 19:55:50,814 - INFO - Found 292 packages already installed
+2025-03-23 19:55:50,814 - INFO - All required packages are already installed
+2025-03-23 19:56:01,898 - INFO - Parsed 34 requirements from requirements.txt
+2025-03-23 19:56:01,898 - INFO - Found 292 packages already installed
+2025-03-23 19:56:01,900 - INFO - All required packages are already installed
+2025-03-23 19:59:15,755 - INFO - Parsed 34 requirements from requirements.txt
+2025-03-23 19:59:15,755 - INFO - Found 292 packages already installed
+2025-03-23 19:59:15,755 - INFO - All required packages are already installed
+2025-03-23 19:59:37,355 - INFO - Parsed 34 requirements from requirements.txt
+2025-03-23 19:59:37,360 - INFO - Found 292 packages already installed
+2025-03-23 19:59:37,360 - INFO - All required packages are already installed
+2025-03-23 20:00:38,709 - INFO - Parsed 34 requirements from requirements.txt
+2025-03-23 20:00:38,709 - INFO - Found 292 packages already installed
+2025-03-23 20:00:38,714 - INFO - All required packages are already installed
+2025-03-23 20:01:20,713 - INFO - Parsed 34 requirements from requirements.txt
+2025-03-23 20:01:20,714 - INFO - Found 292 packages already installed
+2025-03-23 20:01:20,714 - INFO - All required packages are already installed
+2025-03-23 20:01:54,107 - INFO - Parsed 34 requirements from requirements.txt
+2025-03-23 20:01:54,107 - INFO - Found 292 packages already installed
+2025-03-23 20:01:54,107 - INFO - All required packages are already installed
