@@ -1,4 +1,4 @@
-# Telco Customer Churn Data Engineering Project
+# Customer Churn Data Engineering Project
 
 A comprehensive data engineering solution for analyzing and predicting customer churn in the telecommunications industry, built with modern data engineering principles and tools.
 
