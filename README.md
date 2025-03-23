@@ -218,6 +218,3 @@ Then open your browser at `http://localhost:8501`
 - **A/B Testing Framework**: For evaluating retention strategies
 - **Data Quality Monitoring**: Automated checks and alerts
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
